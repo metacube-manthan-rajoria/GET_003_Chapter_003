@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weatherly</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div>Weatherly</div>
-            <ul>
-                <li>Home</li>
-                <li>Features</li>
-                <li>Reviews</li>
-                <li>Download</li>
+            <div id="nav_logo_container">
+                <img src="./res/assets/logo.png" alt="Weatherly">
+            </div>
+            <ul id="nav_links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#features">Features</a>
+                </li>
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+                <li>
+                    <a href="#download">Download</a>
+                </li>
             </ul>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul id="nav_social">
+                <li class="fa fa-facebook"></li>
+                <li class="fa fa-instagram"></li>
+                <li class="fa fa-google"></li>
             </ul>
         </nav>
         <div id="hero">
-            <div>
-                <p></p>
-                <button></button>
-                <button></button>
+            <div id="hero_info">
+                <p>Get the most fun</p>
+                <p>weather app</p>
+                <button id="hero_download_button" class="rectangle_button">Download</button>
+                <a id="hero_features_button" class="rectangle_button" href="#features">Features</a>
             </div>
-            <div>
-                <img src="" alt="">
+            <div id="hero_image_container">
+                <img id="hero_image" src="./res/images/hero_phone.png" alt="">
             </div>
         </div>
     </header>

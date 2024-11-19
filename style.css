@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  --theme-1: #648cff;
+  --website-background-light: #ffffff;
+  --text-color-1: white;
+}
+
+.fa {
+    color: var(--text-color-1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.rectangle_button {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    border: 0;
+}
+
+/* ---------------------------------------------- */
+body {
+    background-color: var(--website-background-light);
+    background-image: url("./res/dividers/divider_white.png");
+}
+
+header a{
+    color: var(--text-color-1);
+    z-index: 100;
+}
+
+/* Nav Bar */
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  background-color: var(--theme-1);
+}
+
+#nav_logo_container {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+
+#nav_links {
+  display: flex;
+  justify-content: center;
+}
+
+#nav_links > li {
+    margin: 0.5rem;
+}
+
+#nav_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_social > li {
+    margin: 0.5rem;
+}
+
+/* Hero */
+#hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("./res/assets/hero_background.png");
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#hero_info {
+    font-size: 3.5rem;
+    padding-top: 8rem;
+    padding-left: 12.3rem;
+}
+
+#hero_image {
+    padding: 2rem;
+    margin-top: 2.7rem;
+    height: 65%;
+}
+
+#hero_info > p {
+    margin: 0;
+    color: var(--text-color-1);
+}
+
+#hero_download_button {
+    background-color: #fc6a45;
+    color: var(--text-color-1);
+}
+
+#hero_features_button {
+    background-color: #4563c5;
+    color: var(--text-color-1);
+}
