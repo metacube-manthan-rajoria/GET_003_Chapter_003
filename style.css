@@ -61,6 +61,7 @@ header a{
 
 .section_heading {
     color: var(--theme-1);
+    margin: 0.5rem;
 }
 
 /* Nav Bar */
@@ -109,6 +110,7 @@ nav {
 
 #hero_info {
     font-size: 3.5rem;
+    font-weight: 600;
     padding-top: 8rem;
     padding-left: 12.3rem;
 }
@@ -193,3 +195,107 @@ nav {
 }
 
 /* Screenshots */
+#screenshot_section {
+    display: grid;
+    justify-items: center;
+}
+
+.screenshot_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+
+    border: 1px solid black;
+}
+.screenshot_info_row_3 {
+    display: flex;
+}
+
+.dotted_circle {
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+
+    display: grid;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    justify-items: center;
+
+    color: #0000002e;
+}
+
+/* Screenshots */
+#review_section {
+    display: grid;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#footer_app_download {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    background-color: #6388fb;
+    color: var(--text-color-1);
+    padding-top: 7rem;
+}
+
+#footer_app_download_info {
+    padding-left: 12rem;
+}
+
+#footer_app_download_info > span{
+    font-size: 2.5rem;
+}
+
+#footer_app_download_buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+#footer_app_download_buttons img {
+    height: 2.5rem;
+}
+
+#footer_app_download_image_wrapper {
+    display: grid;
+}
+
+#footer_app_download_image_wrapper > img {
+    width: 70%;
+}
+
+#footer_references_section {
+    background-color: #383a53;
+    color: white;
+}
+
+#footer_nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  
+    background-color: #383a53;
+}
+
+#footer_nav a{
+    color: white;
+}
+
+#footer_rights {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
