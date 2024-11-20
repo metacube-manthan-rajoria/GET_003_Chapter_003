@@ -257,6 +257,32 @@ nav {
     display: flex;
 }
 
+#screenshot_info_2 {
+    padding-left: 13rem;
+}
+
+.screenshot_image_wrapper_2 {
+    display: grid;
+    justify-items: start;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.screenshot_image_wrapper_2 > span {
+    position: absolute;
+    font-size: 15rem;
+    font-weight: 300;
+    rotate: 90deg;
+    opacity: 0.13;
+    z-index: 10;
+    top: 10rem;
+    left: 7rem;
+}
+
+.screenshot_image_wrapper_2 > img {
+    z-index: 11;
+}
+
 .screenshot_image_wrapper_3 {
     display: grid;
     justify-items: end;
@@ -289,9 +315,6 @@ nav {
 
     color: #0000002e;
 }
-
-
-
 
 /* Review */
 #review_section {
