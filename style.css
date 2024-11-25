@@ -258,7 +258,8 @@ nav {
 }
 
 #screenshot_info_2 {
-    padding-left: 13rem;
+    display: grid;
+    justify-content: end;
 }
 
 .screenshot_image_wrapper_2 {
