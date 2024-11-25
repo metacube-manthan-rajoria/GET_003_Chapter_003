@@ -20,6 +20,10 @@ body {
   --text-color-1: white;
 }
 
+main {
+    display: grid;
+}
+
 .fa {
     color: var(--text-color-1);
 }
